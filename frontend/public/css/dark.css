@@ -19992,6 +19992,7 @@ textarea.ant-input {
 	flex: auto;
 	/* fix firefox can't set height smaller than content on flex item */
 	min-height: 0;
+	background-color: darkslategrey;
 }
 .ant-layout-sider {
 	position: relative;

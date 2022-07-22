@@ -15,7 +15,7 @@ export const ToggleThemeComponent = () => {
           style={{ fontSize: '24px' }}
           onClick={() => {
             setTheme('dark');
-            localStorage.setItem('them', 'dark');
+            localStorage.setItem('theme', 'dark');
           }}
         >
           🌃

@@ -1,10 +1,12 @@
 import React from 'react';
+import { AdminLayoutComponent } from '../../components/AdminLayoutComponent';
 
 const AdminPage = () => {
   return (
-    <div>
-      <h1>admin page</h1>
-    </div>
+    <AdminLayoutComponent>
+      <h1>This is admin page props</h1>
+      <p>more content</p>
+    </AdminLayoutComponent>
   );
 };
 
