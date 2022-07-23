@@ -65,21 +65,6 @@ const RegisterPage = () => {
               placeholder="Password"
             />
           </Form.Item>
-          <Form.Item
-            name="confirm-password"
-            rules={[
-              {
-                required: true,
-                message: 'Please confirm your Password!',
-              },
-            ]}
-          >
-            <Input.Password
-              prefix={<LockOutlined className="site-form-item-icon" />}
-              type="password"
-              placeholder="Confirm Password"
-            />
-          </Form.Item>
 
           <Form.Item>
             <Button
